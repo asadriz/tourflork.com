@@ -84,3 +84,25 @@
 	
 	width:100%;
 	}	
+.container:hover::after{
+	display:none;
+	}
+	
+.container2{
+
+	/* Set a counter named cnt to 0 */
+	position:relative;
+	text-align:left;
+	padding:20px 0;
+	width:300px;
+	height: 120px;
+	margin: 29 auto;
+	background-color:#FFC;
+}
+input
+{
+  -moz-border-radius: 5px;
+ border-radius: 5px;
+    border:solid 3px #999999;
+    padding:5px;
+}
