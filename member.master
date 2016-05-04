@@ -1,0 +1,52 @@
+﻿<%@ Master Language="C#" CodeFile="member.master.cs" Inherits="member" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<link rel="stylesheet" type="text/css" href="css\member_css.css">
+
+    <title>tourflock.com</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            font-size: large;
+        }
+        .style2
+        {
+            font-size: xx-large;
+            font-family:@Microsoft JhengHei UI Light;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="header"> &nbsp; <span class="style2">tourflock</span><span class="style1"> 
+    <div class="logout">
+        <asp:LinkButton ID="lb_logout" runat="server" Font-Size="Small" 
+            ForeColor="White" onclick="lb_logout_Click"><span class="style1">Signout?</span></asp:LinkButton></div>
+    <br />
+    <div class="picture">
+        <asp:Image ID="Image1" runat="server" CssClass="picturein" ImageUrl="usvisapic.jpg" 
+            BorderStyle="Solid" Height="70px" ImageAlign="AbsMiddle" Width="70px" /></div>
+        <br />
+&nbsp; Find out whatever you want</span><br />
+        &nbsp;
+        <asp:TextBox ID="TextBox1" CssClass="TextBox" runat="server" Width="418px"></asp:TextBox>
+        <asp:Button ID="Button1" runat="server" CssClass="TextBox" Text="Search" 
+            Height="31px" />
+    </div>
+    <div></div>
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    <div></div>
+<div></div>    
+    </form>
+</body>
+</html>

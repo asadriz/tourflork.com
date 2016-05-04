@@ -1,0 +1,136 @@
+﻿body 
+{
+	font-family:Arial CE;
+	font-size:small;
+}
+.textbox
+{
+	  -moz-border-radius: 5px;
+    border-radius: 5px;
+	background-color:Gray;
+	background-color:Lime;
+
+	}
+	.TextBox
+{
+  -moz-border-radius: 5px;
+    border-radius: 5px;
+    border:solid 2px #999999;
+    padding:5px;	
+}
+
+	.container2{
+
+	/* Set a counter named cnt to 0 */
+	position:relative;
+	text-align:left;
+	padding:20px 0;
+	width:79px;
+	height: 22px;
+	margin: 29 auto;
+	background-color:#FFC;
+	top: 0px;
+	left: 0px;
+}
+.logout
+{
+	float:right;
+	width:10%;
+	top:0px;
+	height:20px;
+	font-size:small;
+	
+	}
+	
+	.picture
+	{
+		float:right;
+		width:10%;
+		height:20px;
+		top:20px;
+		right:100px;
+	  -moz-border-radius: 5px;
+    border-radius: 5px;
+		}
+		.picturein
+	{
+	  -moz-border-radius: 40px;
+    border-radius: 40px;
+		}
+.heading
+{
+	font-family:Bell MT;
+	font-size:xx-large;
+	color:Navy;
+	
+	}
+	.msgs
+	{
+	font-family:Arial;
+	font-size:medium;
+	font-style:oblique;
+	color:Navy;
+	height: 24px;
+}
+	
+.header
+{
+		display: inline-block;
+	padding: 8px 0px;
+	background-color: #CACA98;
+
+	color:Navy;
+	position:relative;
+	height:20%;
+	width:100%;
+	left:0%;
+	right:0%;
+	margin-left:0px;
+	top: 0px;
+}
+.leftcolum
+{
+		position:relative;
+	text-align:left;
+	padding:20px 0;
+	width:10%;
+	height: 400px;
+	margin: 10 auto;
+	background-color:#CACA98;
+	top: 0px;
+	left: 0px;
+
+	}
+
+.rightcolum
+{
+	position:absolute;
+		float:right;
+			text-align:right;
+	padding:20px 0;
+	width:10%;
+		height:400px;
+		top:155px;
+		right:1px;
+	background-color:#CACA98;
+	}
+	
+	.middle
+	{
+			position:absolute;
+	text-align:left;
+	padding:20px 0;
+	width:70%;
+	height: 400px;
+	margin: 10 auto;
+	background-color:#CACA98;
+	top: 155px;
+	left: 15%;
+	
+		
+		}
+	
+.footer
+{
+		
+		}
